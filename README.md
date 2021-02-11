@@ -1,3 +1,4 @@
+
 #### What is it?
 
 A package that reads data from 3 files start.log, end.log and abbreviation that contain start and end data of the best
@@ -14,3 +15,4 @@ The application has a few parameters:
 ###### Examples:
 - python command_line.py --files <folder_path> [--asc | --desc]
 - python command_line.py --files <folder_path> --driver “Sebastian Vettel”
+
