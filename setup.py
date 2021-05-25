@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
     name="report_racing_pkg",
-    version="0.0.1",
+    version="0.0.2",
     author="Anna Katunina",
     author_email="leznevoanna@gmail.com",
     description="A package that reads data from 3 files start.log, end.log and abbreviation and print"

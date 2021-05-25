@@ -1,27 +1,29 @@
 Metadata-Version: 2.1
 Name: report-racing-pkg
-Version: 0.0.1
+Version: 0.0.2
 Summary: A package that reads data from 3 files start.log, end.log and abbreviation and printreport of the top 15 racers
 Home-page: https://git.foxminded.com.ua/anna_katunina/task-6-report-monaco-racing
 Author: Anna Katunina
 Author-email: leznevoanna@gmail.com
 License: UNKNOWN
-Description: ####What is it?
+Description: 
+        #### What is it?
         
         A package that reads data from 3 files start.log, end.log and abbreviation that contain start and end data of the best
         lap for each racer of Formula 1 - Monaco 2018 Racing and abbreviation explanations, orders racers by time and print
         report that shows the top 15 racers and the rest after underline.
         ____
-        ####How to use an application via the command line?
+        #### How to use an application via the command line?
         
         The application has a few parameters:
         - files - the name of the folder that contains start, end and abbreviation files 
         - asc / desc - optional order (default order is asc)
         - driver - shows statistic about driver
         
-        ######Examples:
+        ###### Examples:
         - python command_line.py --files <folder_path> [--asc | --desc]
         - python command_line.py --files <folder_path> --driver “Sebastian Vettel”
+        
         
 Platform: UNKNOWN
 Classifier: Programming Language :: Python :: 3
